@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/profile.jpeg">
+    <title>First Page</title>
+    <style>
+        table,table th,table td{
+            border: 2px solid rgb(37, 193, 204);
+            border-collapse: collapse;
+            padding: 4px;
+            color: #52d81d;
+            text-align: center;
+        }
+        #hi{
+            color: blueviolet;
+        }
+        a{
+            font-style: none;
+            color: red;
+            font-size: large;
+        }
+    </style>
+</head>
+<body >
+    <h1>Anchor tag</h1>
+    <a href="demo.html">Click here</a>
+    <a href="#defintionList">Click here</a>
+    <br>
+    <br>
+    <br>
+    <h1>Images</h1>
+    <img src="images/pre.jpeg" alt="Sung Jin Woo's image" style="height: 400px; width:250px">
+    <img src="images/profile.jpeg" alt="Sung Jin Woo's image" usemap="#workmap">
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" href="demo.html" alt="Loading Error">
+        <area shape="circle" coords="337,300,44" href="demo.html" alt="Loading Error">
+    </map>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Table Tag</h1>
+    <div class="footer">
+
+    </div>
+    <table id="tableTag8">
+        <tr> <th>Name</th> <th>Roll No</th> <th>Favorite Anime</th></tr>
+        <tr> <td id="hi">Suhas</td> <td>23191A0508</td> <td>Solo leveling</td></tr>
+        <tr> <td id="hi">Aravind</td> <td>23191A0545</td> <td>Solo leveling</td></tr>
+        <tr> <td>Harish</td> <td>24195A0502</td> <td>Solo leveling</td></tr>
+    </table>
+
+    <h1>Unordered List</h1>
+    <ul list>
+        <li>Shikamaru</li>
+        <li>Naruto</li>
+        <li>Sasuke</li>
+    </ul>
+    <h1>Ordered List</h1>
+    <ol>
+        <li>Ironman</li>
+        <li>Loki</li>
+        <li>Captain America</li>
+    </ol>
+    <h1>Definition List</h1>
+
+    <dl id="defintionList">
+        <dt>Coffee</dt>
+        <dd>-Black Hot Drink</dd>
+        <dt>Milk</dt>
+        <dd>- White cold drimk</dd>
+    </dl>
+    <table>
+        <tr><th>DAYS</th><th>9:15 to 10:15</th><th>10:15 to 11:15</th><th>11:15 to 11:25</th> <th>11:25 to 12:25</th><th></th><th>1:45 to 2:45</th><th>2:45 to 3:45</th> <th></th>3:45 to 4:45</tr>th</tr>
+        <tr><th>MON</th><td colspan="4" style="text-align:center">fsdI</td><td rowspan="6"></td><td>dbms</td><td>os</td><td>es</td></tr>
+        <tr><th>tue</th><td>MEFA</td><td>SE</td><td rowspan="5"></td><td>PS</td><td colspan="3">os</td></tr>
+        <tr><th>Wed</th><td >ps</td><td>mefa</td><td>dbms</td><td colspan="3">epic</td></tr>
+        <tr><th>THUR</th><td>ps</td><td>dbms</td><td>os</td><td colspan="3">dl</td></tr>
+        <tr><th>FRI</th><td>es</td><td>os</td><td>se</td><td colspan="3">dbms</td></tr>
+        <tr><th>SAT</th><td>se</td><td>es*</td><td>ps*</td><td>os*</td><td>dbms*</td><td>library</td></tr>
+    </table>
+    <fieldset >
+        <form action="" >
+            <label for="Username">Username</label>
+            <input type="text" name="Username" id="">
+            <input type="password" placeholder="Enter password">
+            <input type="checkbox" name="check" id="check">
+            <label for="check">checkbox</label>
+            <input type="radio" name="radio" id="radio">
+            <label for="">radio button</label>
+            <select name="options" id="">
+                <option value="1">option 1</option>
+                <option value="2">option 2</option>
+                <option value="3">option 3</option>
+                <option value="4">option 4</option>
+            </select>
+        </form>
+    </fieldset>
+    <iframe src="./demo.html" frameborder="1">
+    </iframe>
+</body>
+</html>
